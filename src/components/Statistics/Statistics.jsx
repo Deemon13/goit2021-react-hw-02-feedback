@@ -8,8 +8,8 @@ export const Statistics = statisticsItems => {
       <p>good: {good}</p>
       <p>neutral: {neutral}</p>
       <p>bad: {bad}</p>
-      <p>total: {total}</p>
-      <p>positive feedback: {positivePercentage} %</p>
+      <p>total: {total ? total : 0}</p>
+      <p>positive feedback: {positivePercentage ? positivePercentage : 0} %</p>
     </>
   );
 };
